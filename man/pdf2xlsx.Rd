@@ -16,7 +16,8 @@ xlsx file contains all allocated projects
 Getting all allocated projects in a given province
 }
 \examples{
-input_pdf <- "0150000s.pdf"
+input_pdf <- system.file("extdata","0150000s.pdf",package = "pdf2xlsx")
+browseURL(input_pdf)
 pdf2xlsx(input_pdf)
 
 }

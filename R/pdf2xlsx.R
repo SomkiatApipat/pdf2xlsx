@@ -7,7 +7,8 @@
 #' @return xlsx file contains all allocated projects
 #' @export
 #'
-#' @examples input_pdf <- "0150000s.pdf"
+#' @examples input_pdf <- system.file("extdata","0150000s.pdf",package = "pdf2xlsx")
+#' @examples browseURL(input_pdf)
 #' @examples pdf2xlsx(input_pdf)
 #'
 #' @import pdftools
@@ -15,6 +16,7 @@
 #' @import magick
 #' @import png
 #' @import tidyverse
+#'
 
 pdf2xlsx <- function(input_pdf) {
 
