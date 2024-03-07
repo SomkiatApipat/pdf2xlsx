@@ -2,6 +2,7 @@
 
 export(pdf2xlsx)
 import(magick)
+import(openxlsx)
 import(pdftools)
 import(png)
 import(tesseract)

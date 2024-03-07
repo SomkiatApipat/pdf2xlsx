@@ -7,14 +7,17 @@
 #' @return xlsx file contains all allocated projects
 #' @export
 #'
-#' @examples input_pdf <- "0150000s.pdf"
-#' @examples pdf2xlsx(input_pdf)
+#' @examples input_pdf <- system.file("extdata","0150000s.pdf",package = "pdf2xlsx")
+#' @examples browseURL(input_pdf)
+#' @examples data <- pdf2xlsx(input_pdf)
 #'
 #' @import pdftools
 #' @import tesseract
 #' @import magick
 #' @import png
 #' @import tidyverse
+#' @import openxlsx
+#'
 
 pdf2xlsx <- function(input_pdf) {
 
@@ -337,7 +340,6 @@ pdf2xlsx <- function(input_pdf) {
   dataf_final$item = trimws(dataf_final$item)
 
   return(dataf_final)
-
 
 }
 
