@@ -19,5 +19,6 @@ Getting all allocated projects in a given province
 input_pdf <- system.file("extdata","0150000s.pdf",package = "pdf2xlsx")
 browseURL(input_pdf)
 data <- pdf2xlsx(input_pdf)
+view(data)
 
 }
