@@ -16,7 +16,6 @@
 #' @import magick
 #' @import png
 #' @import tidyverse
-#' @import openxlsx
 #'
 
 pdf2xlsx <- function(input_pdf) {
