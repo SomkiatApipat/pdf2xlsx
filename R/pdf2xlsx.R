@@ -10,7 +10,7 @@
 #' @examples input_pdf <- system.file("extdata","0150000s.pdf",package = "pdf2xlsx")
 #' @examples browseURL(input_pdf)
 #' @examples data <- pdf2xlsx(input_pdf)
-#' @examples view(data)
+#' @examples View(data)
 #'
 #' @import pdftools
 #' @import tesseract
