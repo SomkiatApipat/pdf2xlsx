@@ -253,6 +253,10 @@ pdf2xlsx <- function(input_pdf) {
 
   }
 
+
+
+
+
   ### --- combine items --- ###
   # delete blank lines
   id = 1:nrow(dataf_final)
